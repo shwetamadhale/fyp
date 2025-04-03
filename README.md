@@ -27,48 +27,25 @@ To set up the project, you'll need Python and some dependencies. To install them
 
 ```sh
 pip install -r requirements.txt
+```
 The dependencies include libraries for image processing, machine learning, and the web interface.
 
-Usage
-Clone the repository:
 
-sh
-Copy
-Edit
-git clone https://github.com/yourusername/handwritten-math-recognition.git
-cd handwritten-math-recognition
-Install the required dependencies:
+## Features
+**Handwritten Equation Recognition**: The system processes and recognizes handwritten equations.
 
-sh
-Copy
-Edit
-pip install -r requirements.txt
-To run the project, navigate to the Front_End directory, and open index.html in your web browser. You can also train the model by running the Jupyter notebooks in Stage 01 to Stage 05.
+**Deep Learning-Based Model**: The model combines CNNs and LSTMs for better recognition and sequence prediction.
 
-For inference, upload an image containing a handwritten equation, and the system will output the predicted equation.
 
-Features
-Handwritten Equation Recognition: The system processes and recognizes handwritten equations.
-
-Deep Learning-Based Model: The model combines CNNs and LSTMs for better recognition and sequence prediction.
-
-Web Interface: Users can upload images of equations and see predictions interactively.
-
-Equation Reconstruction: Recognized symbols are put together to form the original equation.
-
-Technologies Used
+## Technologies Used
 Machine Learning: TensorFlow, Keras
-
-Image Processing: OpenCV
 
 Web Interface: HTML, CSS, JavaScript
 
 Model: CNN + LSTM architecture for recognition and sequence prediction
 
-Project Structure
-plaintext
-Copy
-Edit
+## Project Structure
+```
 fyp/
 │
 ├── Front_End/                     # Web interface to interact with the model
@@ -105,3 +82,4 @@ fyp/
 │   └── training_model_07.ipynb    # Final training model
 │
 └── Survey Paper.pdf               # Updated survey paper
+```
